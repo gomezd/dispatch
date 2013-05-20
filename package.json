@@ -1,6 +1,7 @@
 {
-    "name": "test",
+    "name": "dispatcher",
     "version": "0.0.1",
+    "main": "./lib/dispatcher.js",
     "dependencies": {
         "express": "3.2.x",
         "js-yaml": "2.0.x",

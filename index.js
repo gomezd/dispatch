@@ -1,6 +1,6 @@
 #! /usr/bin/env node
 
-var dispatcher = require('./dispatcher'),
+var dispatcher = require('./lib/dispatcher'),
     port = 9999;
 
 dispatcher.start(function (err, app) {
