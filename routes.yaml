@@ -1,0 +1,15 @@
+
+routes:
+
+    "/":
+        methods: [ get, post ]
+        action: user.index
+        config:
+            foo: bar
+
+    "/search":
+        action: user.search
+        view: user.index
+
+    "/foo":
+        action: foo.bar
